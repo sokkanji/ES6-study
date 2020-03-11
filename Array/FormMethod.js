@@ -1,7 +1,7 @@
 function addMark() {
     let newArray = Array.from(arguments);
     //arguments로부터 배열을 만든다.
-    let newData = arguments.map(function (value) {
+    let newData = newArray.map(function (value) {
         return value + "!";
     });
 
