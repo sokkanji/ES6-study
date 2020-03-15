@@ -21,11 +21,7 @@ var news = [
     }
 ];
 
-/*
-let [, mbc] = news; 
-let { title, imgurl } = mbc;
-console.log(title, imgurl);
-*/
-
-let [, { title, imgurl }] = news;
-console.log(imgurl);
+function getNewsList([, { newslist }]) {
+    console.log(newslist);
+}
+getNewsList(news);
